@@ -7,14 +7,13 @@ mkdir -p vae
 urls=(
     "https://huggingface.co/sdyy/OmniGen_quantization2/resolve/main/.gitattributes"
     "https://huggingface.co/sdyy/OmniGen_quantization2/resolve/main/README.md"
-    "https://huggingface.co/sdyy/OmniGen_quantization2/resolve/main/config.json"
     "https://huggingface.co/sdyy/OmniGen_quantization2/resolve/main/demo_cases.png"
-    "https://huggingface.co/sdyy/OmniGen_quantization2/resolve/main/model.safetensors"
+    "https://huggingface.co/sdyy/OmniGen_quantization2/resolve/main/model.pt"
     "https://huggingface.co/sdyy/OmniGen_quantization2/resolve/main/special_tokens_map.json"
     "https://huggingface.co/sdyy/OmniGen_quantization2/resolve/main/tokenizer.json"
     "https://huggingface.co/sdyy/OmniGen_quantization2/resolve/main/tokenizer_config.json"
-    "https://huggingface.co/sdyy/OmniGen_quantization2/resolve/main/vae/config.json?download=true"
-    "https://huggingface.co/sdyy/OmniGen_quantization2/resolve/main/vae/diffusion_pytorch_model.safetensors?download=true"
+    "https://huggingface.co/sdyy/OmniGen_quantization2/resolve/main/vae/config.json"
+    "https://huggingface.co/sdyy/OmniGen_quantization2/resolve/main/vae/diffusion_pytorch_model.safetensors"
 )
 
 # Loop through each URL and use wget to download

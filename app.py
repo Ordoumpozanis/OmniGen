@@ -391,7 +391,7 @@ with gr.Blocks() as demo:
             output_image = gr.Image(label="Output Image")
 
    
-    )
+    
     # click
     generate_button.click(
         generate_image,
